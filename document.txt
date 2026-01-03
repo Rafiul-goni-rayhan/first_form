@@ -2,7 +2,7 @@ first_form
 
 echo "# first_form" >> README.md
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Rafiul-goni-rayhan/first_form.git
