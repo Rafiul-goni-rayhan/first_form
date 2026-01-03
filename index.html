@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-   <!-- <header>This is info collect form</header>-->
+    <form>
+
+    
     <h1>Registration form</h1>
     <!--full name -->
     <lavel for="name">Full name :</lavel>
@@ -33,18 +37,16 @@
     <lavel for="phone_number">Phone number :</lavel>
     <input type="phone_number" id="phone_number" placeholder="entere phone number" required>
     <br><br><br>
-    <lavel for="gender">Gender</lavel>
-     <br>
+
+    <lavel for="gender">Gender :</lavel>
+   
     <input type="radio" name="gender" value="Male"> Male
     <input type="radio" name="gender" value="Female"> Female
     <br><br><br>
     <lavel for="dob" >Date of birth </lavel>
     <input type="date" id="date" required>
+    <br><br><br>
 
-    <br><br><br>
-    <lavel for="terms"></lavel>
-    <input type="checkbox" value="terms ">  click here to agree
-    <br><br><br>
     <!-- Country -->
      <lavel for="skill"> Skill:</lavel>
      <select id="skill">
@@ -53,13 +55,18 @@
         <option value="css">CSS</option>
         <option value="JS">JS</option>
      </select> <br> <br><br>
+
      <lavel for="about" >say about yourself: </lavel>
      <textarea id="about" rows="2" placeholder="say about yourself"></textarea>
      <br><br><br>
 
+    <lavel for="terms"></lavel>
+    <input type="checkbox" value="terms ">  click here to agree
+    <br><br><br>
+
     <input type="submit"  value="resister">
     <input type="reset"  value="clear">
     <br><br><br>
-
+    </form>
 </body>
 </html>
